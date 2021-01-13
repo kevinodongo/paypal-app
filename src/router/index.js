@@ -17,12 +17,12 @@ const routes = [
     component: Profile
   },
   {
-    path: "/upgrade-subscrpiton",
+    path: "/upgrade-subscription",
     name: "Upgrade",
     component: () => import("../components/Upgrade.vue")
   },
   {
-    path: "/subscrpiton-payment",
+    path: "/subscription-payment",
     name: "Payment",
     component: () => import("../components/Payment.vue")
   }

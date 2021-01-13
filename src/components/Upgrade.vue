@@ -54,7 +54,7 @@ export default {
         .Buttons({
           style: {
             shape: "rect",
-            color: "blue",
+            color: "gold",
             layout: "vertical",
             label: "paypal",
             size: "medium"

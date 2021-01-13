@@ -75,7 +75,8 @@ export default {
       // we can add a snackbar
       this.snackbar = true;
       // timeout
-      // You can use one component and write the logic on one component
+      // You can use one component and write the logic for both upgrade and payment.
+      //In my case I have separated them to two components (Payment and Upgrade)
       // Both payment and upgrade requires the user consent
       setTimeout(() => {
         if (response === true) {

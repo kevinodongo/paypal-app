@@ -65,10 +65,11 @@ export default {
               "@selectedpackage"
             );
             const package_results = JSON.parse(package_response);
+            // eslint-disable-next-line no-unused-vars
             let plan_ID = package_results.planID; // user plan id
             // 2. Create a subscription
             return actions.subscription.create({
-              plan_id: plan_ID
+              plan_id: "P-68Y89363LT682944UL7ISCPI"
             });
           },
           // eslint-disable-next-line no-unused-vars
